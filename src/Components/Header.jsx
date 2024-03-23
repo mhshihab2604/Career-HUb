@@ -20,19 +20,17 @@ const Header = () => {
                         </div>
                         <ul
                             tabIndex={0}
-                            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 font-medium">
+                            className="menu text-lg menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 font-medium">
                             <Link to="/statistics">Statistics</Link>
                             <Link to="/jobs">Applied Jobs</Link>
-                            <Link to="/blog">Blog</Link>
                         </ul>
                     </div>
                     <a className="btn btn-ghost font-extrabold text-xl lg:text-3xl">CareerHub</a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
-                    <ul className="menu menu-horizontal px-1 flex gap-10 font-medium">
+                    <ul className="menu menu-horizontal px-1 flex gap-10 font-medium text-lg">
                         <Link to="/statistics">Statistics</Link>
                         <Link to="/jobs">Applied Jobs</Link>
-                        <Link to="/blog">Blog</Link>
                     </ul>
                 </div>
                 <div className="navbar-end">

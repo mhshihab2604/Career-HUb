@@ -4,7 +4,7 @@ import './index.css'
 import Root from './Components/Root';
 import Home from './Components/Home';
 import Jobs from './Components/Jobs';
-import Blog from './Components/Blog';
+
 
 import {
   createBrowserRouter,
@@ -26,16 +26,13 @@ const router = createBrowserRouter([
       },
       {
         path: "/jobs",
-        element: <Jobs></Jobs>
-      },
-      {
-        path: "/blog",
-        element: <Blog></Blog>
+        element: <Jobs></Jobs>,
+        loader: () => fetch("../jobs.json")
       },
       {
         path: "/job/:id",
-        loaderL: () => fetch("./jobs.json"),
-        element: <JobDetails></JobDetails>
+        element: <JobDetails></JobDetails>,
+        loader: () => fetch("../jobs.json")
       }
     ]
   },

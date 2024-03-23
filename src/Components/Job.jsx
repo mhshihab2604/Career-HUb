@@ -7,7 +7,7 @@ const Job = ({job}) => {
     const {id,logo,job_title,company_name,remote_or_onsite,job_type,location,salary} = job;
     return (
         <div>
-            <div className="card h-full bg-base-100 shadow-xl p-5 border-2 border-[#7E90FE]">
+            <div className="card mx-2 h-full bg-base-100 shadow-xl p-5 border-2 border-[#7E90FE]">
                 <figure><img className="w-[200px]"
                     src={logo}
                     alt="Shoes"/></figure>
