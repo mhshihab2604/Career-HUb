@@ -15,7 +15,7 @@ const FeaturedJob = () => {
         <div className="container mx-auto">
             <div className="hero min-h-screen">
                 <div className="hero-content flex-col lg:flex-row-reverse">
-                    <img src={myImage} className="w-[400px] lg:w-full max-w-sm" />
+                    <img src={myImage} className="w-[400px] lg:w-full" />
                     <div>
                     <h1 className="text-2xl lg:text-7xl font-bold">One Step <br /> Closer To Your <br /> <span className="text-[#7E90FE]">Dream Job</span></h1>
                     <p className="py-6">Explore thousands of job opportunities with all the <br /> information you need. Its your future. Come find it. Manage all <br /> your job application from start to finish.</p>
