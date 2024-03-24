@@ -51,7 +51,7 @@ const Header = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a className="btn font-extrabold text-white text-[12px] lg:text-lg rounded-full lg:rounded-lg bg-[#7E90FE] w-12 lg:w-40">Start Applying</a>
+                    <a className="btn font-extrabold text-white text-[12px] lg:text-lg rounded-full lg:rounded-lg bg-[#7E90FE] w-[52px] lg:w-40">Start Applying</a>
                 </div>
                 <label className="cursor-pointer grid place-items-center ml-2">
                     <input
